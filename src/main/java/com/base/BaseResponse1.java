@@ -1,11 +1,11 @@
 package com.base;
 
-public class BaseResponse {
+public class BaseResponse1 {
     private int code;       //交互状态码（1：成功；其他：失败）
     private String msg;     //交互失败的错误信息
     private Object data;    //交互的数据(可能是字符串，也可能是数组，也可能是对象)
 
-    public BaseResponse() {
+    public BaseResponse1() {
         this.code = 1;
         this.msg = "success";
         this.data = null;
