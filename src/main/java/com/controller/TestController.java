@@ -1,7 +1,7 @@
 package com.controller;
 
-import com.DataManager;
-import com.web.object.BaseRespose;
+import com.base.DataManager;
+import com.requestOBJ.BaseRespose;
 import org.apache.log4j.Logger;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
